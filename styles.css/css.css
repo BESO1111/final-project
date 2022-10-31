@@ -1,0 +1,888 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    }
+
+body{
+    background-color: rgb(108, 129, 140);
+}
+
+header{
+padding: 20px;
+background-color: rgb(166, 166, 179);
+display: flex;
+justify-content: space-between;
+align-content: center;
+align-items: center;
+
+
+}
+
+header h1{
+
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/mountain.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent: -55555px;
+
+}
+
+header h1 a{
+    display: block;
+    width: 50px;
+    height: 50px;
+   
+}
+
+.inp{
+    display: block;
+    width: 250px;
+    height: 40px;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(200, 200, 221);
+    color:#ffffff;
+}
+
+.inp:hover{
+background-color: #c3c1c1;
+
+
+}
+
+header ul{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+header li a{
+padding: 6px 10px;
+/* background-color: rgb(128, 128, 255); */
+border-radius: 6px;
+display: block;
+color: rgb(48, 51, 51);
+transition:   2s;
+
+}
+header li a:hover{
+    background-color: rgb(192, 145, 240);
+    text-decoration: none;
+   
+}
+
+
+/* -------------------------- burger bari         ------------------ */
+
+.burger div{
+
+    width: 26px;
+    height: 2px;
+    margin-top: 5px;
+    background-color: #3e3d3d;
+    display: none;
+}
+
+
+
+
+
+
+/* ---------------------------- index.htlm main---------------------- */
+
+.feriscvla1{
+    width: 30px;
+    height: 20px;
+    margin-left: 23px;
+
+}
+.feriscvla1 img{
+    width: 100%;
+}
+.feriscvla1 p{
+    position: absolute;
+    top: 125px;
+    left: 23px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+
+
+
+/* .feriscvla{
+    position: absolute;
+    width: 40px;
+   height: 20px;
+   top: 110px;
+   right: 0;
+}
+
+.feriscvla img{
+    width: 100%;
+} */
+
+
+
+.divi{
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: space-around;
+ flex-wrap: wrap;
+}
+
+
+.racha{
+width: 400px;
+padding-bottom: 50px;
+position: relative;
+
+}
+article section .linki{
+
+    display: block;
+
+   
+   
+}
+
+.racha::before{
+    position: absolute;
+    content:"";
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+ 
+    background-color: rgb(36, 80, 45);
+    top: -30px;
+    left: -10px;
+    animation: trialebsbrunavs 8s infinite 2s;
+}
+
+@keyframes trialebsbrunavs {
+    0%{top:0; left: 0;}
+    25%{top:0; left: 374px;}
+    50%{top:198px; left: 374px;}
+    75%{top:198px; left: 0;}
+    100%{top:0; left: 0;}
+}
+
+ .racha img{
+ width: 100%;
+}
+
+
+.racha:hover{
+    box-shadow: 0px 0px 10px rgb(78, 66, 66);
+    height:312px ;
+   
+    cursor: pointer;
+}
+
+
+
+
+/* ----------- index.thlm slider ---------------------------- */
+
+
+.item {
+height: 450px;
+
+}
+.item img{
+    height: 100%;
+}
+
+
+
+
+
+/* ------------- index.html   footer ---------------------- */
+
+
+.fiqsi1{
+    width: 180px;
+    height: 200px;
+    border: 2px solid black;
+    
+    position: fixed;
+    bottom: 50px;
+    right:14px;
+    border-radius: 8px;
+    display: none;
+   background-color: #898484;
+   z-index: 1;
+    
+    
+}
+
+  .fiqsi2{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 160px;
+    height: 40px;
+    right: 20px;
+    border: 1px solid black;
+    margin: 4px auto;
+    padding: 6px;
+   
+    
+}
+
+.fiqsi2 .pepe{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.fiqsi1 textarea{
+    width: 177px;
+    height: 110px;
+    outline: none;
+    resize: none;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #aea8a8;
+ 
+}
+
+
+.fiqsi1 .pepe1{
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.fiqsi{
+    width: 180px;
+    height: 40px;
+    border: 2px solid black;
+    background-color: #423e3e;
+    position: fixed;
+    bottom:50px;
+    right: 14px;
+    padding: 8px;
+    border-radius: 8px;
+  
+
+
+}
+.fiqsi p{
+    color: #ffffff;
+}
+
+.fiqsi:hover{
+    background-color:  #686565;
+    cursor: pointer;
+}
+
+footer{
+margin-top: 58px;
+    padding: 50px;
+    background-color: rgb(163, 157, 169);
+}
+
+.mtavari{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: flex-start;
+
+
+}
+
+.footer1 p{
+
+padding-bottom: 8px;
+border-bottom: 2px solid black;
+width: 240px;
+
+}
+.footer1 p::before{
+content: "contact:";
+font-weight: 600;
+}
+
+.footer1 p:hover{
+cursor: pointer;
+border-left: 2px solid black;
+
+
+}
+
+.footer2{
+width: 60px;
+height: 60px;
+}
+
+.footer2 img{
+    width: 100%;
+}
+
+.footer2:hover{
+box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+
+
+
+.social{
+    width: 60px;
+    height: 120px;
+
+}
+
+
+.social .face , .social .insta{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.social .face img , .social .insta img{
+
+width: 100%;
+}
+
+.social .face{
+    background-image: url(../img/facebook.png);
+}
+
+.social .insta{
+
+    background-image: url(../img/instagram.png);
+}
+
+.social a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.social .face:hover , .social .insta:hover{
+box-shadow: 0px 0px 20px black;
+border-radius: 22px;
+}
+
+.ruka{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items:flex-start;
+
+}
+.damatebitiinfo{
+    padding-bottom: 5px;
+
+}
+
+.damatebitiinfo p{
+
+border-bottom: 2px solid black;
+width: 86px;
+
+
+}
+
+.damatebitiinfo p:hover{
+    border-left: 2px solid #423e3e;
+    background-color:#6d6565;
+   
+}
+
+/* ------------------- istoria.html ----------------- */
+
+.istori{
+    display: flex;
+    justify-content: space-between;
+   /* align-content: center; */
+    margin-top: 20px;
+}
+ 
+.istoria .pe, .istoria1 .pe1{
+    width: 100%;
+    border: 2px solid rgb(77, 74, 74);
+  text-align: center;
+  background-color: #b3a7a7;
+}
+
+
+.istoria, .istoria1{
+
+width:30%;
+border: 1px solid black;
+padding: 6px;
+text-align: justify;
+transition: width 1s;
+
+}
+.istoria:hover, .istoria1:hover{
+width: 32%;
+
+
+}
+
+
+.raionebi{
+  margin: 6px auto;
+width: 80%;
+border-bottom:  3px  solid black;
+border-top:  3px  solid black;
+background-color: #6a6767;
+
+display: flex;
+justify-content: space-around;
+padding: 10px;
+}
+
+
+.raionebi div{
+
+    width: 10%;
+    border-left: 2px solid rgb(69, 56, 56);
+    border-top: 2px solid rgb(69, 56, 56);
+}
+
+.raionebi div p{
+
+    color: #294674;
+}
+
+
+
+/* ...//////////.......... mevenaxeoba.html ......... //////////////////// */
+
+.mevenaxeobaa{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+
+}
+.mevenaxeoba, .usaxelauri{
+margin-top: 60px;
+    width: 380px;
+    height: 380px;
+}
+
+.mevenaxeoba img , .usaxelauri img{ 
+  
+    height: 380px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.mevenaxeoba p, .usaxelauri p{
+margin: 0px auto;
+    width:100%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+
+
+/* ------------------ mkerdzebi.thml --------------------------  */
+
+
+
+
+
+
+
+.kerdzi{
+    width: 40%;
+    /* background-color: #645e5e; */
+   margin: 80px auto;
+    border-radius: 8px;
+   text-align: center;
+    border-bottom: 10px solid rgb(84, 141, 84);
+    position: relative;
+}
+
+
+
+.kerdzi::before{
+
+content: "";
+position: absolute;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+/* background-color: #0047ba; */
+border-top: 3px solid rgb(223, 0, 0);
+top: -30px;
+left: 300px;
+animation: lurjiburti 5s infinite;
+}
+
+@keyframes lurjiburti {
+    
+        0%{top:-30px; left: 300;}
+      50%{ top: -30px; left: 578px; }
+      100%{top:-30px; left:270px}
+}
+.kerdzi::after{
+
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* background-color: #15ff00; */
+    border-top: 3px solid green;
+    top: -30px;
+    right: 300px;
+animation: lurjiburti1 5s infinite ;
+    }
+    @keyframes lurjiburti1 {
+    
+        0%{top:-30px; right: 300px;}
+      50%{ top: -30px; right: 578px; }
+      100%{top:-30px; right:270px;}
+}
+
+
+
+.kerdzi p{
+font-size: 34px;
+
+
+}
+
+
+
+
+/* ----------------------- tradiciebi.html ------------------------ */
+
+
+
+.tradiciebi{
+    margin: 50px auto;
+width: 500px;
+height: 56px;
+border-bottom: 5px solid rgb(28, 24, 24);
+text-align: center;
+
+}
+.tradiciebi p{
+
+font-size: 30px;
+line-height: 46px;
+color: #ffffff;
+
+}
+
+.tradiciebi1{
+
+    width: 700px;
+    margin: 10px auto;
+    height: 30px;
+    border-top: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.tradiciebi1 p{
+    color: #dac2c2;
+    border-right: 2px solid black;
+    cursor: pointer;
+}
+
+.tradiciebi1 p:hover{
+
+color: #423e3e;
+
+
+}
+
+.tradiciebi2{
+
+
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.tradiciebi2 p{
+color: #ffffff;
+text-align: justify;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------- responsive ------------------------------------- */
+
+
+@media only screen and (max-width: 800px){
+
+
+    body{
+        width: 100%;
+    }
+    header{
+       
+        padding: 16px;
+        background-color: rgb(166, 166, 179);
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    
+    }
+#search{
+width: 120px;
+}
+
+.navi ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;  
+}
+
+
+
+
+.item {
+    height: 200px;
+}
+.item img{
+    height: 100%;
+}
+.mtavari {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;    
+}
+
+
+
+
+
+
+.ruka iframe{
+    width: 400px;
+    height: 200px;
+}
+
+
+
+
+.divi{
+    display: flex;
+    
+ flex-direction: column;
+ align-items: center;
+}
+
+.mevenaxeoba{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+
+
+}
+
+
+}
+
+@media only screen and (max-width: 391px){
+
+
+    body{
+        width: 390px;
+    }
+    header{
+       
+        padding: 10px;
+        background-color: rgb(166, 166, 179);
+        
+    }
+
+    .burger div{
+
+        display: block;
+    }
+#search{
+width: 120px;
+margin-left:-20px ;
+margin-top: 8px;
+}
+
+.navi {
+display: none;
+
+}
+header ul{
+    width: 30px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+   flex-direction: column;
+    text-align: center;
+   
+}
+.burger{
+    display: block;
+}
+
+.racha{
+    width: 350px;
+    padding-bottom: 50px;
+    position: relative;
+    
+    }
+    article section .linki{
+    
+        display: block;
+    
+       
+       
+    }
+    
+    .racha::before{
+        position: absolute;
+        content:"";
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+     
+        background-color: rgb(36, 80, 45);
+        top: -30px;
+        left: -10px;
+        animation: trialebsbrunavs 8s infinite 2s;
+    }
+    
+    @keyframes trialebsbrunavs {
+        0%{top:0; left: 0;}
+        25%{top:0; left: 324px;}
+        50%{top:180px; left: 324px;}
+        75%{top:180px; left: 0;}
+        100%{top:0; left: 0;}
+    }
+    
+     .racha img{
+     width: 100%;
+    
+    }
+    
+    
+    .racha:hover{
+        box-shadow: 0px 0px 5px rgb(78, 66, 66);
+        height:312px ;
+       
+        cursor: pointer;
+    }
+    
+
+
+    .fiqsi{
+        width: 180px;
+        height: 40px;
+        border: 2px solid black;
+        background-color: #423e3e;
+        position: fixed;
+        bottom:50px;
+        right: 14px;
+        padding: 8px;
+        border-radius: 8px;
+      
+    
+    
+    }
+
+
+.item {
+    height: 150px;
+}
+.item img{
+    height: 100%;
+}
+/* .mtavari {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;    
+   
+} */
+
+
+.fiqsi1{
+   left: 30px;
+}
+
+
+.fiqsi{
+left:30px;
+
+}
+
+
+
+.mtavari{
+    display: flex;
+    justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+
+
+
+.ruka iframe{
+    width: 200px;
+    height: 100px;
+    margin-left: -40px;
+}
+
+.damatebitiinfo{
+margin-left: 60px;
+
+}
+
+
+.divi{
+    display: flex;
+    
+ flex-direction: column;
+ align-items: center;
+}
+
+.mevenaxeoba{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+
+
+}
+
+
+}
+
